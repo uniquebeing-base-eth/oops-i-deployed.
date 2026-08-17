@@ -5,6 +5,7 @@ import { DEPLOY_CONFIG } from "@/lib/deploy-config";
 const LINKS = [
   { href: "#home", label: "Home" },
   { href: "#nfts", label: "NFTs" },
+  { href: "#mint", label: "Mint" },
   { href: "#lore", label: "Lore" },
 ];
 
