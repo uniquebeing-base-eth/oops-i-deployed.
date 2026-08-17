@@ -35,8 +35,10 @@ function Index() {
       <main>
         <Hero />
         <DeployConsole />
-        <NftCollection />
-        <NftGallery />
+        <TheDeployed />
+        <DeployerGallery />
+        <SpecialDeployers />
+        <MintPanel />
         <Lore />
         <Roadmap />
       </main>
