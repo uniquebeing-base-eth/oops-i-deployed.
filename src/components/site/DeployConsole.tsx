@@ -17,7 +17,7 @@ export function DeployConsole() {
   const press = () => {
     const next = count + 1;
     setCount(next);
-    setMessage(MESSAGES[(next - 1) % MESSAGES.length]);
+    setMessage(MESSAGES[(next - 1) % MESSAGES.length] ?? "too late.");
     setPressed(true);
     window.setTimeout(() => setPressed(false), 180);
   };
